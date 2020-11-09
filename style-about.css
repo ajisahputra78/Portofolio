@@ -1,0 +1,60 @@
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link{
+    margin-right: 60px;
+    font-size: smaller;
+    text-transform: uppercase;
+}
+
+.jumbotron{
+    background-origin: border-box;
+    background-size: cover;
+    height: 800px;
+}
+
+.jumbotron h1{
+    margin-top: 100px;
+    font-style: italic;
+}
+
+.icon{
+    font-size: 15px;
+    margin-top: 100px;
+    text-align: left;
+    font-weight: 150;
+}
+
+.icon .fa{
+    font-size: 90px;
+}
+
+.footer{
+    margin-top: -20px;
+}
+.footer p{
+    color: #acacac;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+/* pc */
+@media (min-width: 992px){
+    .icon{
+        text-align: left;
+        margin-left: 450px;
+    }
+
+    .jumbotron h1{
+        margin-top: 50px;  
+        text-transform: uppercase;
+    }
+
+    .footer{
+        margin-top: -30px;
+    }
+}
+

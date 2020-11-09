@@ -1,0 +1,122 @@
+/* navbar */
+
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+
+}
+
+
+
+
+
+
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(img/bg-welcome.jpg);
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.jumbotron .display-4{
+    font-family: 'Courier';
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 60px;
+    font: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.jumbotron .my{
+    color: yellow;
+}
+
+
+.logo{
+    color: rgb(241, 235, 235);
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.jumbotron .nama{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 100px;
+    font-size: 10px;
+    font-weight: 5000;
+    margin: auto;
+}
+
+.jumbotron .nav-item{
+    text-align: center;
+}
+
+
+/* lain-lain */
+.tombol{
+    border-radius: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+/* pc */
+@media (min-width: 992px) {
+
+    .navbar-brand{
+        color: white !important;
+        text-shadow: rgba(0, 0, 0, 0.7);
+        
+    }
+
+
+    .nav-link{
+        color: white !important;
+        font-size: 25px;
+        margin-right: 25px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        margin: auto;
+        padding-bottom: 5px;
+        margin: -8px;
+    }
+
+
+    
+
+    .jumbotron{
+        margin-top: -75px;
+        height: 750px;
+    }
+
+    .jumbotron .display-4{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .jumbotron .nama{
+        font-size: 25px;
+    }
+
+    .tombol{
+        margin-top: 170px;
+    }
+
+
+}

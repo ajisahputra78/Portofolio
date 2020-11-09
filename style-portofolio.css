@@ -1,0 +1,110 @@
+.navbar-brand{
+    color: rgb(12, 235, 41) !important;
+}
+
+
+.jumbotron{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 640px;
+
+}
+
+.jumbotron h1{
+    color: yellow;
+    font-weight: 200;
+    font-size: 62px;
+}
+
+.jumbotron p{
+    color: #acacac;
+    size: 102px;
+}
+
+.my{
+    margin-top: 50px;
+}
+
+.icon{
+    font-size: 250px;
+    text-align: center;
+    margin-top: -80px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+
+}
+
+.icon p{
+    font-size: 10px;
+    margin-top: -70px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+
+}
+
+/* footer */
+.footer{
+    margin-top: -100px;
+}
+.footer p{
+    color: #acacac;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.tombol{
+    border-radius: 100px;
+    text-align: center;
+    font-style: italic;
+    size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+
+}
+
+.tombol-link{
+    border-radius: 100px;
+    text-align: center;
+    font-style: italic;
+    size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    margin-top: -350px;
+
+}
+
+
+/* pc */
+
+@media (min-width: 992px) {
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto !important;
+        padding-bottom: 5px;
+        margin-bottom: -100px !important;
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+    }
+
+    .tombol{
+        text-transform: uppercase;
+    }
+
+    .tombol-link{
+        text-transform: uppercase;
+    }
+
+    .nav-link{
+        margin-right: 30px;
+    }
+
+    
+    
+
+}
+
+
